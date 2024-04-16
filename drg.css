@@ -1,0 +1,40 @@
+#ludo{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: rgb(209, 199, 199);
+    padding-top: 30px;
+}
+button{
+    font-size: 4.5rem;
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: hsl(20, 60%, 50%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(210, 100%, 60%);
+}
+button:active{
+    background-color: hsl(210, 100%, 70%);
+}
+input{
+    font-size: 4rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 15px;
+}
+#diceResult{
+    margin: 25px;
+    color: rgb(209, 199, 199);
+}
+#diceImages img{
+    width: 150px;
+    margin: 5px;
+}

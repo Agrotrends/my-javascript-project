@@ -1,0 +1,472 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em
+} 
+#countlabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#btnContainer1{
+    text-align: center;
+}
+.buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(224, 169, 16);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.buttons:hover{
+    background-color: rgb(57, 90, 4);
+}
+
+#countlabel2{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    color: rgb(90, 3, 78);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#btnContainer2{
+    text-align: center;
+}
+.buttons2a{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(18, 228, 81);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.buttons2b{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(27, 4, 88);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.buttons2c{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(241, 109, 47);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.buttons2a:hover{
+    background-color: rgb(57, 90, 4);
+}
+.buttons2b:hover{
+    background-color: rgb(57, 90, 4);
+}
+.buttons2c:hover{
+    background-color: rgb(57, 90, 4);
+}
+
+
+#countlabel3{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    color: rgb(10, 180, 138);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#btnContainer3{
+    text-align: center;
+}
+.buttons3{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(228, 154, 18);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.buttons3:hover{
+    background-color: rgb(57, 90, 4);
+}
+#container5{
+    text-align: center;
+    color: blue;
+}
+#mySubmit4{
+    font-size: 1em;
+    color: yellowgreen;
+    text-align: center;
+    border-radius: 15px;
+    
+}
+#subb{
+    color: rgb(207, 107, 13);
+}
+
+#tempForm{
+font-family: Arial, Helvetica, sans-serif;
+background-color: rgb(142, 182, 182);
+text-align: center;
+max-width: 400px;
+margin: auto;
+padding: 25px;
+border-radius: 15px;
+box-shadow: 5px 5px 15px rgb(131, 79, 1);
+}
+
+h4{
+    color: chocolate;
+}
+
+#textBox{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid rgb(180, 37, 37);
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+#tempLabel{
+    
+    font-weight: bold;
+}
+#tempBtn{
+    margin-top: 15px;
+    background-color: chocolate;
+    color: rgb(142, 182, 182);
+    font-size: 1.0em;
+    border: 2px solid rgb(7, 1, 1);
+    padding: 10px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+#tempBtn:hover{
+    color: rgb(118, 212, 30);
+}
+
+#tempResult{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#ludo{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgb(209, 199, 199);
+}
+button{
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: hsl(210, 100%, 50%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(210, 100%, 60%);
+}
+button:active{
+    background-color: hsl(210, 100%, 70%);
+}
+
+input{
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 15px;
+}
+#diceResult{
+    margin: 25px;
+}
+#diceImages img{
+    width: 150px;
+    margin: 5px;
+}
+
+#PasswordGen{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgb(240, 199, 247);
+}
+button{
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: hsl(73, 98%, 61%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(210, 100%, 60%);
+}
+button:active{
+    background-color: hsl(210, 100%, 70%);
+}
+
+#clock-container{
+    background-image: url(images/testimonial-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#clock{
+    font-family: monospace;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    color: orange;
+    width: 100%;
+    background-color: hsla(0, 0, 100%, 0.1);  
+}
+
+#swb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 10%, 90%);
+}
+#mySw{
+    font-size: 4rem;
+    font-family: "Arial", sans-serif;
+    color: hsl(0, 0%, 25%);
+}
+#WatchContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 5px;
+    border-radius: 50px;
+    background-color: white;
+}
+#displayw{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: hsl(0, 0%, 30%);
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.75);
+    margin-bottom: 25px;
+}
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none; 
+    border-radius: 10px;
+    cursor: pointer;
+    color: white; 
+}
+#startwBtn{
+    background-color: hsl(115, 100%, 40%);
+}
+#startwBtn:hover{
+    background-color: hsl(115, 100%, 30%);
+}
+#stopwBtn{
+    background-color: hsl(10, 90%, 50%);
+}
+#stopwBtn:hover{
+    background-color: hsl(10, 90%, 40%);
+}
+#resetwBtn{
+    background-color: hsl(205, 90%, 60%);
+}
+#resetwBtn:hover{
+    background-color: hsl(205, 90%, 30%);
+} 
+
+#myCalc1{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: solid black 5px;
+    border-radius: 15px
+}
+#calculator{
+    padding: 10px;
+    border-radius: 1em;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    background-color: #191b28;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.display-box {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #dcdbe1;
+    border: solid black 2.5px;
+    color: black;
+    border-radius: 5px;
+    width: 100%;
+    height: 65%;
+}
+
+#btn {
+    background-color: #fb0066;
+}
+
+input[type=button] {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #64278f;
+    color: white;
+    border: solid black 0.5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+    outline: none;
+}
+
+input:active[type=button] {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+#myCalc2{
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+  
+    
+    
+}
+#headCal{
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 25px;
+}
+#displaycal{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+}
+#cakbtn{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+    
+#myBox{
+    background-color: lightgreen;
+    width: 100px;
+    height: 300px;
+    font-size: 4.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+ 
+#myButtonE{
+    font-size: 3rem;
+}
+
+#{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#game{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3.5rem;
+    color: hsl
+}
+
+.choices{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+
+.choices button{
+     font-size: 7.5rem;
+    min-width: 160px;
+    margin: 0 10px;
+    border-radius: 250px;
+    background-color: hsl(200, 100%, 50%);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.choices button:hover{
+    background-color: hsl(200, 100%, 70%);
+}
+
+#playerDisplay, #computerDisplay{
+    font-size: 2.5rems;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#resultDisplay{
+    font-size: 5rem;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}

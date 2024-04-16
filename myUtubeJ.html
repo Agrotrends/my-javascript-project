@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="myCss.css">
+
+</head>
+
+<body>
+    <h1 id="myWel">Welcome to Ade-Daniel Website</h1>
+    <p id="MyP1">welcomes to my website</p>
+    <label> Username: </label>
+        <input id="myUser"> <br> <br>
+    <button id="mySubmit">Submit</button>
+
+
+    <p id="MyP2">Enter the Radius of a Circle:</p>
+    <label> Radius: </label>
+        <input id="myRadius"> <br> <br>
+    <button id="mySubmit2">Submit</button>
+    <h3 id="myR"></h3> 
+ 
+<div id="btnContainer1">
+    <label id="countlabel">0</label>
+    <button id="decreaseBtn" class="buttons"> decrease</button>
+    <button id="resetBtn" class="buttons">Reset</button>
+    <button id="resetRBtn" class="buttons">Reset to Random </button>
+    <button id="increaseBtn" class="buttons">Increase</button>
+    
+</div>
+
+
+<div id="btnContainer2">
+    <h4>Creating Simple Ludo Game</h4>
+    <label id="countlabel2">0</label>
+    <button id="player1Btn" class="buttons2a"> Player 1</button>
+    <button id="restartgBtn" class="buttons2b">Restart</button>
+    <button id="player2Btn" class="buttons2c">Player 2 </button>
+    
+</div>
+    
+<div id="btnContainer3">
+    <h4>COUNTER PROGRAM: lets roll three dice at a go</h4>
+    <button id="playerABtn" class="buttons3"> Play </button> <br>
+    <label id="playerAlabel1">0</label> <br>
+    <label id="playerAlabel2">0</label> <br>
+    <label id="playerAlabel3">0</label> <br>
+    <p>Player A</p>
+    
+</div>
+<div id="btnContainer4"></div>
+    <h4>IF STATEMENTS</h4>
+    <p>If a condition is true, execute some code, if not, do something else.</p>
+    <label>Enter your age:</label><br>
+    <input type="text" id="myText"><br>
+    <button type="submit" id="mySubmit3">Submit</button>
+    <p id="resultElement"> </p>
+
+
+<div id="container5">
+    <h4>checkbox using if and else statement</h4>
+    <input type="checkbox" id="myCheckbox">
+    <label for="myCheckbox" id="subb">Subscribe</label> <br>
+
+    <input type="radio" id="visaBtn" name="card">
+    <label for="visaBtn">Visa</label> <br>
+    <input type="radio" id="MastercardBtn" name="card">
+    <label for="visaBtn">Mastercard</label> <br>
+    <input type="radio" id="paypalBtn" name="card">
+    <label for="visaBtn">Paypal</label> <br>
+
+    <button type="submit" id="mySubmit4">submit</button>
+
+    <p id="subResult"></p>
+    <p id="paymentResult"></p>
+</div>
+
+<form id="tempForm">
+    <h4> Temperature conversion</h4>
+    <input type="number" id="textBox" value="0"> <br>
+
+    <input type="radio" id="tofahrenheit" name="unit">
+    <label for="toFahrenheit" id="tempLabel"> Celsius ➡ fahrenheit</label><br>
+
+    <input type="radio" id="toCelsius" name="unit">
+    <label for="toCelsius" id="tempLabel"> fahrenheit ➡ Celsius </label> <br>
+    <button type="button"  id="tempBtn">Submit Temperature</button>
+    
+    <p id="tempResult">Select a unit</p>
+</form>
+
+<div id="ludo">
+<h3> Ade-Daniel Ludo Game 3</h3>
+<label> # of dice </label>
+<input type="number" id="numOfDice" value="1" min="1" max="6">
+<button  onclick="rollDice()" >Roll Stevia dice</button>
+<div id="diceResult">1</div>
+<div id="diceImages" >2</div>
+
+</div>
+
+<div id="PasswordGen">
+    <h1>Password Generator</h1>
+    <button onclick="displayGeneratedPassword()">Generate Password</button>
+    <p id="password-output"></p>
+</div>
+    
+<div id="clock-container">
+    <h4> Digital Clock Program</h4>
+    <div id="clock">00:00:00</div>
+</div>
+<div id="swb">
+    <h3 id="mySw"> Stop-Watch</h3>
+    <div id="WatchContainer">
+    <div id="displayw"> 00:00:00 </div>
+    <div id="controls"> 
+        <button id="startwBtn" onclick="startw()"> Start</button>
+        <button id="stopwBtn" onclick="stopw()"> Stop</button>
+        <button id="resetwBtn" onclick="resetw()"> Reset</button>
+    
+        </div>
+    </div>
+    </div>
+<div id="myCalc1" >
+    <h3> MY STEVIA CALCULATOR FOR TECH-ANGEL</h3>
+<table class="calculator" >
+  <tr>
+    <td colspan="3"> <input class="display-box" type="text" id="result" disabled /> </td>
+ 
+    <!-- clearScreen() function clears all the values -->
+    <td> <input type="button" value="C" onclick="clearScreen()" id="btn" /> </td>
+  </tr>
+  <tr>
+    <!-- display() function displays the value of clicked button -->
+    <td> <input type="button" value="1" onclick="display('1')" /> </td>
+    <td> <input type="button" value="2" onclick="display('2')" /> </td>
+    <td> <input type="button" value="3" onclick="display('3')" /> </td>
+    <td> <input type="button" value="/" onclick="display('/')" /> </td>
+  </tr>
+  <tr>
+    <td> <input type="button" value="4" onclick="display('4')" /> </td>
+    <td> <input type="button" value="5" onclick="display('5')" /> </td>
+    <td> <input type="button" value="6" onclick="display('6')" /> </td>
+    <td> <input type="button" value="-" onclick="display('-')" /> </td>
+  </tr>
+  <tr>
+    <td> <input type="button" value="7" onclick="display('7')" /> </td>
+    <td> <input type="button" value="8" onclick="display('8')" /> </td>
+    <td> <input type="button" value="9" onclick="display('9')" /> </td>
+    <td> <input type="button" value="+" onclick="display('+')" /> </td>
+  </tr>
+  <tr>
+    <td> <input type="button" value="." onclick="display('.')" /> </td>
+    <td> <input type="button" value="0" onclick="display('0')" /> </td>
+ 
+    <!-- calculate() function evaluates the mathematical expression -->
+    <td> <input type="button" value="=" onclick="calculate()" id="btn" /> </td>
+    <td> <input type="button" value="*" onclick="display('*')" /> </td>
+  </tr>
+</table>
+</div>
+    
+<div id="myCalc2">
+    <h3 id="headCal">MY CALCULATOR 2 </h3>
+    <input id="displaycal" readonly>
+    <div id="keys">
+        
+         <button id="cakbtn" onclick="appendToDisplay('+')">+</button>
+         <button id="cakbtn" onclick="appendToDisplay('7')">7</button>
+         <button id="cakbtn" onclick="appendToDisplay('8')">8</button> 
+         <button id="cakbtn" onclick="appendToDisplay('9')">9</button>
+         <button id="cakbtn" onclick="appendToDisplay('-')">-</button>
+         <button id="cakbtn" onclick="appendToDisplay('4')">4</button>
+         <button id="cakbtn" onclick="appendToDisplay('5')">5</button>
+         <button id="cakbtn" onclick="appendToDisplay('6')">6</button>
+         <button id="cakbtn" onclick="appendToDisplay('*')">*</button>
+         <button id="cakbtn" onclick="appendToDisplay('1')">1</button>
+         <button id="cakbtn" onclick="appendToDisplay('2')">2</button>
+         <button id="cakbtn" onclick="appendToDisplay('3')">3</button>
+         <button id="cakbtn" onclick="appendToDisplay('/')">/</button>
+         <button id="cakbtn" onclick="appendToDisplay('0')">0</button>
+         <button id="cakbtn" onclick="appendToDisplay('.')">.</button>
+         <button id="cakbtn" onclick="calculate()">=</button>
+         <button id="cakbtn" onclick="clearDisplay()">C</button>
+        
+        
+    </div>
+    </div>
+    
+    <div id="myBox">
+        Click Meee 😊 
+    </div>
+    
+    <button id="myButtonE "> Click Me</button>
+    
+    <h1 id="game"> Rock - Paper - Scissors </h1>
+    <div id="choices">
+    <button onclick="playGame('rock')"> 👊</button>
+    <button onclick="playGame('paper')"> ✋</button>
+    <button onclick="playGame('rock')"> ✌</button>
+    </div>
+    
+    <div id="playerDisplay"> PLAYER: </div>
+    <div id="computerDisplay"> COMPUTER: </div>
+    <div id="resultDisplay"> ITS A TIE! </div>
+    <script src="myscrit.js"></script>
+
+</body> 
+</html>
